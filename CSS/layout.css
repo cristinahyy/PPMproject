@@ -1,0 +1,120 @@
+/* White Header */
+.header-white {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 8px 0;
+    max-width: 1670px;
+    margin: 0 auto;
+    height: 70px;
+}
+
+.header-left {
+    flex: 1;
+    font-size: 13px;
+    font-weight: 500;
+    color: #444;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 10px;
+    white-space: nowrap
+}
+
+.header-right {
+    flex: 1;
+    display: flex;
+    list-style: none;
+    padding-right: 10px;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.header-center {
+    flex: 0 0 auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.header-center img { height: 60px; width: auto; }
+
+/* Black Sticky Header */
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+    background-color: #000;
+    border-top: 4px solid #148f32;
+}
+.nav-content {
+    display: flex;
+    align-items: center;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 8px 0;
+}
+.nav-logo {
+    display: none;
+    height: 30px;
+    width: auto;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+.nav-center-wrapper {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding-left: 190px;
+}
+
+/* General Layout*/
+.container {
+    display: grid;
+    grid-template-columns: 1.6fr 5.4fr 2.5fr;
+    gap: 20px;
+    max-width: 1270px;
+    margin: 15px auto;
+    padding: 0 25px;
+}
+
+.sidebar-left { width: 100%; grid-column: 1; }
+.main-column { width: 100%; grid-column: 2; }
+.sidebar-right { width: 100%; grid-column: 3; grid-row: 1 / span 2; }
+
+.news-bottom-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.bottom-spanning-block {
+    grid-column: 1 / span 2;
+    margin-top: 40px;
+}
+
+.news-list-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+.main-categories-wrapper {
+    display: grid;
+    grid-template-columns: 7.5fr 2.5fr;
+    gap: 30px;
+    grid-column: 1 / span 3;
+    margin-top: 10px;
+    padding-top: 50px;
+    border-top: 2px solid #ccc;
+}
+.category-content-grid-internal {
+    display: grid;
+    grid-template-columns: 3.3fr 4.2fr;
+    gap: 20px;
+}

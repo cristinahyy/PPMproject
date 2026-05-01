@@ -1,0 +1,30 @@
+:root {
+    /* Base colour */
+    --color-bg-dark: #000;
+    --color-bg-light: #fff;
+    --color-bg-gray: #f0f0f0;
+    --color-text-dark: #111;
+    --color-text-muted: #666;
+    --color-border: #eee;
+
+    /* Category colour */
+    --color-accent: #0044cc;
+    --color-sports: #9F6B03;
+    --color-life: #7F14A0;
+    --color-news: #3C810D;
+    --color-opinion: #A22300;
+    --color-business: #4a90e2;
+    --color-goodness: #2ecc71;
+    --color-local: #f1c40f;
+    --color-steeler: #000;
+
+    --transition-speed: 0.3s;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #fff;
+    color: #111;
+}
+a { text-decoration: none; color: inherit; }
