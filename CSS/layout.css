@@ -43,7 +43,7 @@
     position: sticky;
     top: 0;
     z-index: 10000;
-    background-color: #000;
+    background-color: var(--color-bg-dark);
     border-top: 4px solid #148f32;
 }
 .nav-content {
@@ -90,7 +90,7 @@
 .news-bottom-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
+    gap: 5px;
 }
 
 .bottom-spanning-block {
@@ -111,7 +111,7 @@
     grid-column: 1 / span 3;
     margin-top: 10px;
     padding-top: 50px;
-    border-top: 2px solid #ccc;
+    border-top: 2px solid var(--color-border);
 }
 .category-content-grid-internal {
     display: grid;

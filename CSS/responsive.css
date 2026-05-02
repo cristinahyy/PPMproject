@@ -181,7 +181,7 @@
         position: static;
         padding: 0;
         background: none;
-        color: #333;
+        color: var(--color-text-dark);
     }
     .news-card.small .news-overlay h2 {
         font-size: 15px;
@@ -189,6 +189,7 @@
         font-weight: 500;
         margin: 12px;
     }
+    .news-card.small:hover img { filter: none; }
     .news-tag {padding: 2px 4px; top: 0; right: 0; bottom: auto; left: auto; }
 
     .banner-image {border-top: 8px solid var(--color-border); border-bottom: 8px solid var(--color-border); }
